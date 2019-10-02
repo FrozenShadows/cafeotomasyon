@@ -9,18 +9,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-/* 
- 
-Geliştiren: Halit IZGIN(Ready)
-Web Site: http://www.kodevreni.com
-İletişim: ready@kodevreni.com
-Not: Bu uygulama ön lisans projesi olarak tasarlanmıştır. Access veritabanı kullanıldığından
-dolayı pratik kullanıma uzak yapıdadır. Uygulama ticari amaçlı tasarlanmamıştır. Ticari amaçlı
-olarak kullanılması yasaktır. Yalnızca öğrenmek amaçlı geliştirilmeye ve yayınlamaya(kaynak belirterek)
-açıktır.
-
-*/
-
 namespace CafeOtomasyon
 {
     public partial class SiparisEkleForm : Form
@@ -39,7 +27,8 @@ namespace CafeOtomasyon
             comboBox1.DataSource = null;
             comboBox1.Items.Clear();
             label3.Text = "\"" + MasaNo + "\" Nolu Masa Sipariş Ekleme";
-            List<Urun> urunler = CafeDB.Urunler.UrunListe();
+            List<Urun> urunler = CafeDB.Urunler.
+                UrunListe();
             foreach (Urun item in urunler)
             {
                 comboBox1.Items.Add(item);

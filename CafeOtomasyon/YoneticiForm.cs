@@ -11,18 +11,6 @@ using System.Windows.Forms;
 using Microsoft.VisualBasic;
 using Bunifu.Framework.UI;
 
-/* 
- 
-Geliştiren: Halit IZGIN(Ready)
-Web Site: http://www.kodevreni.com
-İletişim: ready@kodevreni.com
-Not: Bu uygulama ön lisans projesi olarak tasarlanmıştır. Access veritabanı kullanıldığından
-dolayı pratik kullanıma uzak yapıdadır. Uygulama ticari amaçlı tasarlanmamıştır. Ticari amaçlı
-olarak kullanılması yasaktır. Yalnızca öğrenmek amaçlı geliştirilmeye ve yayınlamaya(kaynak belirterek)
-açıktır.
-
-*/
-
 namespace CafeOtomasyon
 {
     public partial class YoneticiForm : Form

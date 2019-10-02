@@ -9,9 +9,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Restaurant/Cafe Otomasyon v1.0.0.0")]
 [assembly: AssemblyDescription("Restaurant ve Cafe gibi kurum ve kuruluşlar için geliştirilmiş, sipariş yönetimini kullanışlı ve kolay hale getirmek!")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Çukurova Üniversitesi Adana Meslek Yüksekokulu")]
+[assembly: AssemblyCompany("Teknokent Aselsis")]
 [assembly: AssemblyProduct("Restaurant/Cafe Otomasyon")]
-[assembly: AssemblyCopyright("Copyright © Adana Meslek Yüksekokulu 2018")]
+[assembly: AssemblyCopyright("Copyright © Teknokent Aselsis 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
